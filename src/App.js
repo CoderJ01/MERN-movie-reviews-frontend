@@ -41,7 +41,7 @@ function App() {
             <Nav.Link>
               { user ? (
                   // display if user is logged in
-                  <a onClick={logout}>Logout User</a>
+                  <button onClick={logout}>Logout User</button>
                 ) : (
                   // display if user is logged out
                   <Link to={"/login"}>Login</Link>
